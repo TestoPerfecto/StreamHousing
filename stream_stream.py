@@ -1,17 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
-
 This is a temporary script file.
 """
-
-
 import streamlit as st
-
-
 import pandas as pd
 import numpy as np
-
 import seaborn as sns 
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
@@ -27,8 +21,6 @@ from sklearn.metrics import r2_score
 import joblib
 
 df = pd.read_csv("Housing.csv")
-
-
 
 st.sidebar.title("Sommaire")
 pages = ["Contexte du projet","Expmoration des données","Analyse des données", "Modélisation"]
